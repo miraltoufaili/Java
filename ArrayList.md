@@ -11,4 +11,4 @@
 | Stores: **_primitive_** or **_ojects_** | Stores **only** objects     | 
 | Use generics     | Doesn't use generics    | 
 | Multidimensional | Only one dimensional |
-|uses length | uses size() method|
+|Uses length | Uses size() method|
