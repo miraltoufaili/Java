@@ -4,7 +4,7 @@
 
 
 | Array         | ArrayList           |
-| ------------- |:-------------:|
+| :-------------: |:-------------:|
 |Static | Dynamic|
 | Part of core Java Programming     | Part of Collection framework classes |
 | Fixed legnth data structure      | Varible length     | 
