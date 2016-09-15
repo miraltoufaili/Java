@@ -1,0 +1,31 @@
+Original ArrayList
+Slot 0 : one
+Slot 1 : Three
+Slot 2 : two
+Slot 3 : four
+
+Case of setting 0 to Green
+Slot 0 : GREEN
+Slot 1 : Three
+Slot 2 : two
+Slot 3 : four
+
+Case of adding Red at 1
+Slot 0 : GREEN
+Slot 1 : RED
+Slot 2 : Three
+Slot 3 : two
+Slot 4 : four
+
+Case of removing 1
+Slot 0 : GREEN
+Slot 1 : Three
+Slot 2 : two
+Slot 3 : four
+
+Case of removong four
+Slot 0 : GREEN
+Slot 1 : Three
+Slot 2 : two
+
+GREEN
