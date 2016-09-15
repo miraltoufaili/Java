@@ -5,7 +5,8 @@
    
     This is **Not** a method. Therefore, it will not work with objects. 
 
-  
+    
+    
     
 
 2. **length ()**
@@ -16,7 +17,8 @@
  This is **Not** used for primitive or objects. 
 
 
-  
+    
+    
     
 
  
