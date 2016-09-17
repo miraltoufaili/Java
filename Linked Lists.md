@@ -66,7 +66,7 @@ Java reclaims the space so that it can be used again through _automatic garbage 
   
 **if you set list = null then you'll lose the whole list!!**
 
-## looping through a List  
+##Looping through a List  
 Create a new variable, if you use the original one, then you will lose the list!  
 Once the new variable == null =>  you exit your loop.
   
@@ -75,8 +75,9 @@ Once the new variable == null =>  you exit your loop.
              while (current != null) {  
 		  System.out.println(current.data);  
 		  current = current.next;  
-		    	  
-		    	  
+	    	  
+	    	  
+	    	  
 
 
 
