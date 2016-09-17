@@ -38,9 +38,9 @@ We begining by creating a reference to the front of the list so we can get to an
   
 This variable (list) is not by itself a node!! This is only a variable that is capable of referring to a node. ie it reference to an object. THIS IS NOT A NODE!  
   
-To get an actual node, we need to call _new_  
+To get an actual node, we need to call _new_:  
   
-**list = new ListNode()**; // this tells Java to construct a new node and have the varable list refer to it   
+**list = new ListNode()**;      // this tells Java to construct a new node and have the varable list refer to it   
   
  * Recall that when Java constructs a new object it sets everything to zero.  
  We'll have the **data field** in the node has a  **0** value and the **next field** has the value **null**.  
