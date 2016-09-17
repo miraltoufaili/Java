@@ -79,13 +79,18 @@ Once the new variable == null =>  you exit your loop.
 	    	  
 
 
-
+## Array Code Vs. Linked List Code  
+  
+  
 | Description | Array Code         | Linked List Code         |
 | :-------------: | :-------------: |:-------------:|
 |Go to the front of the list |int i = 0 | ListNode current = list|
 | Current value | a[i]     | current.data |
 | Test for elements | i < size      | current != ntull    | 
-|Go to the next element | i++ | current = current.nex    | 
+|Go to the next element | i++ | current = current.nex    |  
+  
+  
+  
 
 
 
