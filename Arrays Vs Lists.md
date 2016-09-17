@@ -20,7 +20,7 @@
 
 ##Node 
   A single element that contais ONE data value
-  It is an object made of two fields: One to Storge a single item of data and one for storing the reference to the next node 
+   It is an object made of two fields: One to Storge a single item of data and one for storing the reference to the next node 
 
 ### CODE 
   Declaration of the node class: 
