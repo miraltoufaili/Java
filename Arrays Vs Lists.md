@@ -25,13 +25,13 @@
 ##### CODE 
   Declaration of the node class:     
   
-  public class ListNode {  
+  **public class ListNode {  
   public int data;  
-  public ListNode next;  
+  public ListNode next;**  
   
 _Linked lists are usually solved by using recursive methods_  
 
-##### Constructing a list  
+##Constructing a list  
 We begining by creating a reference to the front of the list so we can get to anything in the list.  
   
 **ListNode list;**  
@@ -43,8 +43,14 @@ To get an actual node, we need to call _new_
 **list = new ListNode()**; // this tells Java to construct a new node and have the varable list refer to it   
   
  * Recall that when Java constructs a new object it sets everything to zero.  
- We'll have the **data field** in the node has a  **0** value and the **next field** has the value **null**.   
+ We'll have the **data field** in the node has a  **0** value and the **next field** has the value **null**.  
+
+Let's say that we want to story the value 5 in the node:  
   
+  **list.data = 5;**  
+  **list.next = new ListNode():**  
+    
+ 
   
 
 
