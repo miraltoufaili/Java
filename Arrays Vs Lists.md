@@ -6,3 +6,16 @@
 
      Can't easily insert values in or remove from the middle without shifting other values
      Can't easily enlarge the size of the structure without constructing a new larger array
+
+
+##Linked List Structure: 
+  * Not a random access structure (not easy to jump)
+  * Sequential access 
+
+    
+**Strength** 
+
+     Can quickly insert values in or remove from the middle without any shifting other values
+     Can easily make it larger or smaller
+
+
