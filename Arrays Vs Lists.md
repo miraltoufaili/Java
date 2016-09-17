@@ -40,7 +40,10 @@ This variable (list) is not by itself a node!! This is only a variable that is c
   
 To get an actual node, we need to call _new_  
   
-**list = new ListNode()**;  
+**list = new ListNode()**; // this tells Java to construct a new node and have the varable list refer to it   
+  
+ _recall that when Java constructs a new object it sets everything to zero ==> we'll have the *data field* in the node has a  *0* value and the *next field* has the value *null*.   
+  
   
 
 
