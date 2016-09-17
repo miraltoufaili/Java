@@ -45,13 +45,25 @@ To get an actual node, we need to call _new_:
  * Recall that when Java constructs a new object it sets everything to zero.  
  We'll have the **data field** in the node has a  **0** value and the **next field** has the value **null**.  
 
-Let's say that we want to story the value 5 in the node:  
+Let's say that we want to store the value 5 in data field and we want its next field to point to the new node:  
   
   **list.data = 5;**  
   **list.next = new ListNode():**  
     
- 
+**Example**   
+Contrust a list of the following elements: 5,6,7.
+
+**public class LinkedList{
+  public static void main(String args[]){
+    ListNode list = new ListNode(3, new ListNode (7, new ListNode (12)));  
+    System.out.println(list.data + " " + list.next.data + " " + list.next.next.data);**  
   
+  
+	* We want to **remove** the first node
+		    **list = list.next;**  // variable list is pointing to the node that is storing the next value  
+	Java reclaims the space so that it can be used again through _automatic garbage collection**  
+	**if you set list = null then you'll lose the whole list!!**
+
 
 
 
