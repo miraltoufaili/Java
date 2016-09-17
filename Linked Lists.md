@@ -34,9 +34,9 @@
   
 _Linked lists are usually solved by using recursive methods_  
   
-  
-  
-  
+    
+      
+       
 ##Constructing a list  
 We begining by creating a reference to the front of the list so we can get to anything in the list.  
   
@@ -57,6 +57,8 @@ Let's say that we want to store the value 5 in data field and we want its next f
           list.next = new ListNode():  
   
   
+    
+      
       
 **Example**   
 Contrust a list of the following elements: 5,6,7.
@@ -75,6 +77,7 @@ Java reclaims the space so that it can be used again through _automatic garbage 
 **if you set list = null then you'll lose the whole list!!**
   
   
+  
 
 ##Looping through a List  
 Create a new variable, if you use the original one, then you will lose the list!  
@@ -86,12 +89,13 @@ Once the new variable == null =>  you exit your loop.
 		  System.out.println(current.data);  
 		  current = current.next;  
 	    	  
-	    	  
-
-
+  
+    
+    
 ## Array Code Vs. Linked List Code  
-  
-  
+   
+     
+      
 | Description | Array Code         | Linked List Code         |
 | :-------------: | :-------------: |:-------------:|
 |Go to the front of the list |int i = 0 | ListNode current = list|
