@@ -97,7 +97,7 @@ Once the new variable == null =>  you exit your loop.
      
       
 | Description | Array Code         | Linked List Code         |
-| :-------------: | :-------------: |:-------------:|
+| ------------- | ------------- |-------------|
 |Go to the front of the list |int i = 0 | ListNode current = list|
 | Current value | a[i]     | current.data |
 | Test for elements | i < size      | current != ntull    | 
