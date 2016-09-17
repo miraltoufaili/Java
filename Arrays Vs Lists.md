@@ -63,6 +63,7 @@ Contrust a list of the following elements: 5,6,7.
 * We want to **remove** the first node
  **list = list.next;**  // variable list is pointing to the node that is storing the next value  
 Java reclaims the space so that it can be used again through _automatic garbage collection_**  
+  
 **if you set list = null then you'll lose the whole list!!**
 
 
