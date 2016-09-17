@@ -22,12 +22,21 @@
   A single element that contais ONE data value  
   It is an object made of two fields: One to Storge a single item of data and one for storing the reference to the next node   
 
-### CODE 
-  Declaration of the node class:   
+##### CODE 
+  ~Declaration of the node class: ~    
   
   public class ListNode {  
   public int data;  
   public ListNode next;  
+  
+_Linked lists are usually solved by using recursive methods_  
+
+##### Constructing a list  
+We begining by creating a reference to the front of the list so we can get to anything in the list.  
+  
+ListNode list;  
+  
+
 
 
 
