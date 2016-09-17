@@ -34,13 +34,13 @@ _Linked lists are usually solved by using recursive methods_
 ##### Constructing a list  
 We begining by creating a reference to the front of the list so we can get to anything in the list.  
   
-**ListNode list;  **
+**ListNode list;**  
   
 This variable (list) is not by itself a node!! This is only a variable that is capable of referring to a node. ie it reference to an object. THIS IS NOT A NODE!  
   
 To get an actual node, we need to call _new_  
   
-**list = new ListNode();  **
+**list = new ListNode()**;  
   
 
 
