@@ -7,7 +7,8 @@
      Can't easily insert values in or remove from the middle without shifting other values
      Can't easily enlarge the size of the structure without constructing a new larger array
 
-
+  
+  
 ##Linked List Structure
   * Not a random access structure (not easy to jump)
   * Sequential access 
@@ -17,7 +18,9 @@
 
      Can quickly insert values in or remove from the middle without any shifting other values
      Can easily make it larger or smaller
-
+  
+   
+    
 ##Node 
   A single element that contais ONE data value  
   It is an object made of two fields: One to Storge a single item of data and one for storing the reference to the next node   
@@ -30,7 +33,10 @@
           public ListNode next;   
   
 _Linked lists are usually solved by using recursive methods_  
-
+  
+  
+  
+  
 ##Constructing a list  
 We begining by creating a reference to the front of the list so we can get to anything in the list.  
   
@@ -49,7 +55,9 @@ Let's say that we want to store the value 5 in data field and we want its next f
   
           list.data = 5;  
           list.next = new ListNode():  
-    
+  
+  
+      
 **Example**   
 Contrust a list of the following elements: 5,6,7.
   
@@ -65,6 +73,8 @@ Contrust a list of the following elements: 5,6,7.
 Java reclaims the space so that it can be used again through _automatic garbage collection_**  
   
 **if you set list = null then you'll lose the whole list!!**
+  
+  
 
 ##Looping through a List  
 Create a new variable, if you use the original one, then you will lose the list!  
