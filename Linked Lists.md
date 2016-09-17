@@ -89,6 +89,10 @@ Once the new variable == null =>  you exit your loop.
 		  System.out.println(current.data);  
 		  current = current.next;  
 	    	  
+  **Or**  
+          for(ListNode current = list; current != null; current = current.next){  
+          System.out.println(current.data);  
+  
   
     
     
