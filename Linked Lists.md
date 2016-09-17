@@ -70,10 +70,10 @@ Java reclaims the space so that it can be used again through _automatic garbage 
 Create a new variable, if you use the original one, then you will lose the list!  
 Once the new variable == null =>  you exit your loop.  
   
-  		   **ListNode current = list;   
+  		   ListNode current = list;   
 		    while (current != null) {  
 		    	System.out.println(current.data);  
-		    	current = current.next;**  
+		    	current = current.next;  
 		    	  
 		    	  
 
